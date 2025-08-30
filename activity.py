@@ -4,8 +4,8 @@ def myfunction1(n):
         return
     for i in range(n+1):
         print("Codingal")
-    myfunction1(n//2)
-    myfunction1(n//3)
+    myfunction1(n/2)
+    myfunction1(n/3)
 myfunction1(n)
 print("Time complexity is O(n)")
 print("space complexity is O(log n)")
